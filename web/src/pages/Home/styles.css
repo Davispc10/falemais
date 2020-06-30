@@ -1,0 +1,130 @@
+#page-home {
+  height: 100vh;
+}
+
+#page-home .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-home .content header {
+  margin: 4em 0 0;
+}
+
+#page-home .content header h1 {
+  font-size: 3em;
+  color: var(--title-color)
+}
+
+#page-home .content main {
+  margin: 2em 34em 0;
+  
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-content: center; 
+}
+
+#page-home .content main h1 {
+  font-size: 38px;
+  color: var(--primary-color);
+}
+
+#page-home .content main p {
+  font-size: 24px;
+  margin-top: 1em;
+  line-height: 38px;
+}
+
+#page-home form {
+  margin: 30px auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#page-home form fieldset {
+  border: 0;
+}
+
+#page-home form fieldset .field-group {
+  display: flex;
+  flex-direction: row;
+}
+
+#page-home form fieldset .field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  margin: 0 8px;
+}
+
+#page-home form .field label {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+#page-home form .field input[type="text"],
+#page-home form .field input[type="number"] {
+  flex: 1;
+  background: #fff;
+  width: 8em;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 8px;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+#page-home form .field select {
+  -moz-appearance: none;
+  flex: 1;
+  background: #f0f0f5;
+  border-radius: 8px;
+  border: 0;
+  padding: 12px 18px;
+  font-size: 24px;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+#page-home form .field .ddd {
+  width: 120px;
+}
+
+#page-home form button {
+  width: 110px;
+  height: 65px;
+  background-color: var(--primary-color);
+  border-radius: 16px;
+  border: 0;
+  font-size: 32px;
+  align-self: flex-end;
+  color: #fff;
+  margin-left: 10px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+#page-home form button:hover {
+  background: #ec4248;
+}
+
+.table {
+  font-size: 28px;
+  width: 15em;
+}
+
+.table thead th {
+  padding-bottom: 10px;
+}
+
+.table td {
+  text-align: center;
+}
